@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="stackoverflow" transform="translate(-889 -6514)">
+    <circle id="Ellipse_54" data-name="Ellipse 54" cx="30" cy="30" r="30" transform="translate(889 6514)" fill="#fff"/>
+    <g id="stack-overflow" transform="translate(902 6525.608)">
+      <g id="Group_8" data-name="Group 8" transform="translate(8.453 12.057)">
+        <path id="Path_50" data-name="Path 50" d="M6.444,15.957l15.827,3.362.663-3.2L7.107,12.734Z" transform="translate(-6.093 -5.295)" fill="#484848"/>
+        <path id="Path_51" data-name="Path 51" d="M6.215,17.571H22.391v3.256H6.215Z" transform="translate(-6.215 -2.727)" fill="#484848"/>
+        <path id="Path_52" data-name="Path 52" d="M7.8,10.87,22.455,17.8l1.358-2.976L9.15,7.875Z" transform="translate(-5.373 -7.875)" fill="#484848"/>
+        <path id="Path_53" data-name="Path 53" d="M17.374,14.359l0,0,0,0Z" transform="translate(-0.291 -4.433)" fill="#484848"/>
+      </g>
+      <path id="Path_54" data-name="Path 54" d="M2,15.429V28.551H31.076V15.429H27.842V25.27H5.235V15.429Z" transform="translate(0 8.193)" fill="#484848"/>
+      <path id="Path_55" data-name="Path 55" d="M10.453,5.939,22.868,16.462l2.061-2.526L12.514,3.413Z" transform="translate(4.488 1.812)" fill="#484848"/>
+      <path id="Path_56" data-name="Path 56" d="M26.244,13.147,16.6,0,14.007,1.969l9.648,13.147Z" transform="translate(6.376)" fill="#484848"/>
+    </g>
+  </g>
+</svg>

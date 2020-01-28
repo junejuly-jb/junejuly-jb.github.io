@@ -1,0 +1,32 @@
+.stage {
+    display: flex;
+    width: 100%;
+}
+.box {
+    text-align: center;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 30px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 250px;
+}
+.bounce {
+    animation-name: bounce-3;
+    animation-timing-function: ease;
+}
+@keyframes bounce-3 {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-20px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+
+
+
+
+
+
+

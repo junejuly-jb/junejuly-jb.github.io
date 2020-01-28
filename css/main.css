@@ -1,0 +1,407 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+.active{
+    color: #0AA5FF;
+}
+body nav {
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+body nav .container a {
+    color: #484848 !important;
+}
+
+body nav .container a:hover {
+    color: #007BFF !important;
+}
+
+body nav .container a img {
+    height: 50px;
+}
+
+body .name {
+    margin: 210px 0px;
+}
+
+body .name h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body .name h1 span {
+    color: #007BFF;
+}
+
+body .name p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body .name .button {
+    text-align: center;
+    padding: 10px;
+}
+
+body .name .button a {
+    padding: 15px 40px;
+    border-radius: 100px;
+}
+
+body .bottom-p {
+    text-align: center;
+}
+
+body div.content-bottom {
+    text-align: center;
+}
+
+body div.content-bottom i.fas {
+    font-size: 20px;
+}
+
+body .icon {
+    text-align: center;
+}
+
+body .icon i.fas {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#profile-section {
+    padding: 25px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.profile-div {
+    padding: 20px 10px;
+}
+
+div.profile {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.1);
+}
+
+div.profile img {
+    max-width: 150px;
+    margin: 0px 0px 20px 0px;
+}
+
+p.bio {
+    text-align: justify;
+}
+
+div.skill-div {
+    padding: 20px 10px;
+}
+
+div.skills {
+    padding: 20px 0px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.1);
+}
+
+div.skills>h3 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+div.lang {
+    padding: 5px;
+}
+
+div.lang p {
+    text-align: right;
+}
+
+div.rate {
+    padding: 5px;
+}
+
+div.rate p {
+    text-align: left;
+}
+
+div .skills {
+    background-color: white;
+}
+
+span.dot1 {
+    height: 20px;
+    width: 20px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span.jsc {
+    height: 20px;
+    width: 20px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span.none {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid #007BFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span.dot2 {
+    height: 20px;
+    width: 20px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.abilities {
+    padding: 150px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img.img-ability {
+    width: 100px;
+}
+
+.web-ability {
+    text-align: center;
+}
+
+section.projects {
+    font-family: 'Roboto', sans-serif;
+}
+
+img.img-projects {
+    width: 150px;
+}
+.wiredoctor:hover {
+    transform: translateY(-50px);
+    box-shadow: 5px 5px 11px rgba(10, 165, 255, 0.1);
+}
+.colead:hover {
+    transform: translateY(-50px);
+    box-shadow: 5px 5px 11px rgba(10, 165, 255, 0.1);
+}
+.certon:hover {
+    transform: translateY(-50px);
+    box-shadow: 5px 5px 11px rgba(10, 165, 255, 0.1);
+}
+.certon,
+.wiredoctor,
+.colead {
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+img.img-projects {
+    width: 150px;
+}
+
+section.languages {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 50px 0px;
+}
+h3.knownlang, h3.projex, h3.prof{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+div.lang-div {
+    text-align: center;
+}
+
+div.resume {
+    height: 300px;
+    width: 700px;
+    padding-top: 60px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #0AA5FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0px;
+}
+ul{
+    margin: 0;
+    padding: 10px 0px;
+}
+.black {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.button-b {
+    border-radius: 50px;
+    background-color: #007BFF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-b span.spa {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-b span.spa:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-b:hover span.spa {
+    padding-right: 25px;
+}
+
+.button-b:hover span.spa:after {
+    opacity: 1;
+    right: 0;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+input.email {
+    padding: 5px 5px;
+    width: 320px;
+    border: none;
+    margin: 0px 0px 5px 0px;
+}
+
+.footer-message {
+    font-size: 15px;
+}
+
+textarea {
+    padding: 5px 5px;
+    width: 320px;
+    border: none;
+}
+
+.send {
+    width: 320px;
+}
+ul li a:hover{
+    color: #0AA5FF;
+    text-decoration: none;
+}
+
+.button-b1 {
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #007BFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 35px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-b1 span.spa1 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-b1 span.spa1:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-b1:hover span.spa1 {
+    padding-right: 25px;
+}
+
+.button-b1:hover span.spa1:after {
+    opacity: 1;
+    right: 0;
+}
+button.button-b1 span.spa1 a:hover{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+
+
+@media screen and (max-width:657px) {
+    div.name {
+        padding: 0px 20px;
+        margin: 200px 0px;
+    }
+
+    div.name h1 {
+        font-size: 45px;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    div#navbarTogglerDemo02 {
+        background-color: white;
+    }
+
+    div.resume {
+        height: 200px;
+        width: 280px;
+        padding: 40px 0px;
+        margin: auto;
+        border-radius: 30px;
+        background-color: #0AA5FF;
+        font-family: 'Roboto', sans-serif;
+    }
+}
