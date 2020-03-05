@@ -55,7 +55,9 @@
       </div>
     </div>
   </nav>
-
+  <div id="loader">
+    <img src="giphy.gif" alt="" width="30%">
+  </div>
   <div class="name w3-animate-zoom" id="home">
     <h1>Hi! I'm <span>June</span> Brianne Aragoncillo.</h1>
     <p>UX / UI Designer / Web Developer</p>
@@ -436,6 +438,16 @@
 <script>
   AOS.init({
     duration: 1000,
+  });
+</script>
+<script type="text/javascript">
+  var loader = document.getElementById("loader");
+
+  window.addEventListener("load", function () {
+    loader.style.height = "100px";
+    loader.style.width = "100px";
+    loader.style.borderRadius = "50%";
+    loader.style.visibility = "hidden";
   });
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

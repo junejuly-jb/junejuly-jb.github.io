@@ -7,6 +7,23 @@ body {
     padding: 0;
     transition: 0.3s;
 }
+#loader{
+	height: 100%;
+	width: 100%;
+	background-color: #191f26;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	transition: all .7s;
+}
+#loader img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 .active{
     color: #0AA5FF;
 }
