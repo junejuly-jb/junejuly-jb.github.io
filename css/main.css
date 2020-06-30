@@ -393,7 +393,6 @@ button.button-b1 span.spa1 a:hover{
 
 
 
-
 @media screen and (max-width:657px) {
     div.name {
         padding: 0px 20px;
@@ -402,6 +401,15 @@ button.button-b1 span.spa1 a:hover{
 
     div.name h1 {
         font-size: 45px;
+    }
+    div.resume {
+        height: auto;
+        width: auto;
+        padding: 40px 0px;
+        margin: auto;
+        border-radius: 30px;
+        background-color: #0AA5FF;
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -413,8 +421,8 @@ button.button-b1 span.spa1 a:hover{
     }
 
     div.resume {
-        height: 200px;
-        width: 280px;
+        height: auto;
+        width: auto;
         padding: 40px 0px;
         margin: auto;
         border-radius: 30px;
